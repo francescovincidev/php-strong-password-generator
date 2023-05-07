@@ -44,6 +44,6 @@ if (isset($_GET['pass_length'])) {
     };
 
     $_SESSION["password"] = htmlspecialchars($password);
-    // var_dump($char_type);
+
     header('Location: ./password_show.php');
 };
